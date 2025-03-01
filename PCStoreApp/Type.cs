@@ -30,22 +30,7 @@ namespace PCStoreApp
         public virtual ICollection<TypeImage> TypeImages { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PCItem> PCItems { get; set; }
-        string _image;
 
-        public string Image
-        {
-            get { return _image; }
-            set
-            {
-                _image = value;
-            }
-        }
-        public string ImagePath
-        {
-            get
-            {
-                return Environment.CurrentDirectory + @"\Photos\" + Image;
-            }
-        }
+      
     }
 }

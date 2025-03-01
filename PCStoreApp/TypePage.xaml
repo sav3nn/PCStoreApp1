@@ -28,7 +28,7 @@
                             <RowDefinition Height="auto"></RowDefinition>
                             <RowDefinition Height="auto"></RowDefinition>
                         </Grid.RowDefinitions>
-                        <Image Width="400" Grid.Row="1" Stretch="UniformToFill" HorizontalAlignment="Center" Margin="5">
+                        <Image Width="400" Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center" Margin="5">
                             <Image.Source>
                                 <Binding Path="ImagePath">
                                     <Binding.FallbackValue>

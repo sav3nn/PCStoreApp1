@@ -72,6 +72,7 @@
       <DependentUpon>PCModel.tt</DependentUpon>
     </Compile>
     <Compile Include="ModelExtensions\ToursBaseEntities.cs" />
+    <Compile Include="ModelExtensions\TypeEx.cs" />
     <Compile Include="PCItem.cs">
       <DependentUpon>PCModel.tt</DependentUpon>
     </Compile>
