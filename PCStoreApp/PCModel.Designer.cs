@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\SvNN\source\repos\PCStoreApp\PCStoreApp\PCModel.edmx" включено. 
+﻿// Создание кода T4 для модели "C:\Users\VadimR\Source\Repos\PCStoreApp1\PCStoreApp\PCModel.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.
