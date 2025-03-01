@@ -15,11 +15,17 @@ namespace PCStoreApp
     
     public partial class ToursBaseEntities : DbContext
     {
+        private static ToursBaseEntities _context;
         public ToursBaseEntities()
             : base("name=ToursBaseEntities")
         {
         }
-    
+        public static ToursBaseEntities GetContext()
+        {
+            if (_context == null)
+                _context = new ToursBaseEntities();
+            return _context;
+        }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
